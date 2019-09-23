@@ -159,6 +159,8 @@ namespace OlcChip8Loader
 
         private void buttonBColor_Click(object sender, EventArgs e)
         {
+            colorDialog1.Color = Color.FromArgb(Convert.ToInt32(textBoxBColorR.Text), Convert.ToInt32(textBoxBColorG.Text), Convert.ToInt32(textBoxBColorB.Text));
+            colorDialog1.FullOpen = true;
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 textBoxBColorR.Text = colorDialog1.Color.R.ToString();
@@ -207,6 +209,8 @@ namespace OlcChip8Loader
 
         private void buttonFColor_Click(object sender, EventArgs e)
         {
+            colorDialog1.Color = Color.FromArgb(Convert.ToInt32(textBoxFColorR.Text), Convert.ToInt32(textBoxFColorG.Text), Convert.ToInt32(textBoxFColorB.Text));
+            colorDialog1.FullOpen = true;
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 textBoxFColorR.Text = colorDialog1.Color.R.ToString();
@@ -230,7 +234,8 @@ namespace OlcChip8Loader
                 if (value > 255)
                     ((TextBox)sender).Text = "255";
             }
-
+            panelFColor.BackColor = Color.FromArgb(Convert.ToInt32(textBoxFColorR.Text), Convert.ToInt32(textBoxFColorG.Text), Convert.ToInt32(textBoxFColorB.Text));
+            panelBColor.BackColor = Color.FromArgb(Convert.ToInt32(textBoxBColorR.Text), Convert.ToInt32(textBoxBColorG.Text), Convert.ToInt32(textBoxBColorB.Text));
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
