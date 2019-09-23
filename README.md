@@ -16,5 +16,5 @@ OlcChip8 [-s Pixel_Scale] [-b Background_Pixel_Color] [-f Foreground_Pixel_Color
 实例：
 
       OlcChip8 -f 064128128 -b 000000000 -c 600 d:\INVDERS
-      
-      [![OlcChip8 Emulator Command Line](https://github.com/NeroJin/OlcChip8/raw/master/doc/pic/cmd_sample.png)](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/cmd_sample.png)
+
+[![OlcChip8 Emulator Command Line](https://github.com/NeroJin/OlcChip8/raw/master/doc/pic/cmd_sample.png)]
