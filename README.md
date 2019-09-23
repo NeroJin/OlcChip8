@@ -20,8 +20,10 @@ OlcChip8 [-s Pixel_Scale] [-b Background_Pixel_Color] [-f Foreground_Pixel_Color
 ![OlcChip8 Emulator Command Line](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/cmd_sample.png)
 
 ### 图形界面模式：
-第一次运行程序会进入Configure paths窗口。
+运行OlcChip8Loader.exe，第一次运行程序会进入Configure paths窗口。
 ![OlcChip8 Loader Configure Paths](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/configure_path.png)
 
 按要求填入OlcChip8命令行执行文件所在位置及rom文件所在位置后，按ok进入主界面。
 ![OlcChip8 Loader Main](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/OlcChip8Loader_1.png)
+
+左边列表可以选择想要运行的rom，如果在OlcChip8Loader.exe所在位置下有子文件夹preview并且里面有和rom同名的png图片，右边Preview区域将显示游戏预览图片。右边可以调整每次运行游戏的效果，包含CPU频率（用于调整游戏的速度），屏幕放大倍数（Chip8原生分辨率只有64*32)，前景色和背景色。![OlcChip8 Loader Main](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/OlcChip8Loader_2.png)
