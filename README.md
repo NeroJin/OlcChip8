@@ -18,3 +18,10 @@ OlcChip8 [-s Pixel_Scale] [-b Background_Pixel_Color] [-f Foreground_Pixel_Color
           OlcChip8 -f 064128128 -b 000000000 -c 600 d:\INVDERS
 
 ![OlcChip8 Emulator Command Line](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/cmd_sample.png)
+
+### 图形界面模式：
+第一次运行程序会进入Configure paths窗口。
+![OlcChip8 Loader Configure Paths](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/configure_path.png)
+
+按要求填入OlcChip8命令行执行文件所在位置及rom文件所在位置后，按ok进入主界面。
+![OlcChip8 Loader Main](https://github.com/NeroJin/OlcChip8/blob/master/doc/pic/OlcChip8Loader_1.png)
